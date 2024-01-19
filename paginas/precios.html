@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -13,29 +15,48 @@
 
 
     <header>
-        <div class="navbar">
-            <ul>
-                <a href="../paginas/nosotros.html" class="vinculos">Nosotros</a>
-                <a href="../paginas/experiencias.html" class="vinculos">Experiencias</a>
-                <a href="../paginas/precios.html" class="vinculos">Precios</a>
-                <a href="../paginas/historia.html" class="vinculos">Historia</a>
-                <a href="../paginas/contacto.html" class="vinculos">Contacto</a>
-            </ul>
-            <div class="logo">
-                <!--conseguir logo de cliente en alta-->
-                <a href="../index.html"><img src="../Img/Lider_expediciones_logo.PNG" alt="logo"></a>
+<!-- Navbar de Bootstrap -->
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><a href="../index.html"><img src="../Img/Lider_expediciones_logo.PNG"
+                            alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/experiencias.html">Experiencias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/precios.html">Precios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../paginas/contacto.html">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
+        <h1>Precios</h1>
         <section>
             <div class="articulos">
-                <h2 class="informacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam possimus ex velit,
+                <p class="informacion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam possimus ex velit,
                     assumenda labore
                     omnis facilis minus quasi aut qui atque! Maiores similique expedita vero consequuntur tempora.
                     Nostrum ab necessitatibus asperiores? Nesciunt rem suscipit quis perferendis voluptatum dolorum,
-                    magni culpa expedita aspernatur, aut itaque assumenda ex totam aperiam eius vitae.</h2>
+                    magni culpa expedita aspernatur, aut itaque assumenda ex totam aperiam eius vitae.</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqqOLX7SP1larj9WD3Llm9lGTqOC3bf5-bcw&usqp=CAU"
                     alt="precios" class="imagenes_articulo"></a>
             </div>
@@ -61,13 +82,15 @@
 
     <footer>
         <div class="pie">
-            <h2><a href="https://www.instagram.com" class="sociales">Instagram-@Lider Expediciones</a></h2>
-            <h2><a href="https://www.facebook.com" class="sociales">Facebook-Lider Expediciones</a></h2>
-            <h3 class="derechos">Todos los derechos reservados
-            </h3>
+            <p><a href="https://www.instagram.com" class="sociales">Instagram-@Lider Expediciones</a></p>
+            <p><a href="https://www.facebook.com" class="sociales">Facebook-Lider Expediciones</a></p>
+            <p class="derechos">Todos los derechos reservados
+            </p>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
