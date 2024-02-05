@@ -1,0 +1,15 @@
+footer {
+    .pie {
+        display: block;
+    }
+
+    .sociales {
+        @include socialesStyle (left, 1 rem)
+    }
+
+    .derechos {
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+        font-size: 0, 3 rem;
+    }
+}

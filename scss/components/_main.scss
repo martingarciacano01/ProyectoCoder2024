@@ -1,0 +1,28 @@
+main{
+    h1{color:$colorPrincipal;
+    };
+    .contenedor{  
+        background-color: $colorDefondo;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around};
+    .articulos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 0px 40px 0px
+    };
+    .imagenes_articulo{
+        object-fit: cover;
+        float:inline-end;
+        width: 55vh;
+        height: 55vh; 
+    }
+    .informacion {
+        width: 500px;
+        float: left;
+        text-align: left;}
+    
+}

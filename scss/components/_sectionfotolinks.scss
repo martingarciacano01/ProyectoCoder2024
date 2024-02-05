@@ -1,0 +1,9 @@
+@import "../utilities/extends";
+
+section{
+    .contenedor{
+        .imagenes_link{
+            @extend %foto_link
+        }
+    }
+}

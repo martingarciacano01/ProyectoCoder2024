@@ -1,0 +1,4 @@
+@mixin socialesStyle($alineacionSociales,$tamanioFuente){
+    text-align: $alineacionSociales;
+    font-size: $tamanioFuente;
+}
